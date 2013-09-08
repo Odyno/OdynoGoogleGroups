@@ -3,15 +3,15 @@ OdynoGoogleGroups
 
 This is  a Wordpress plugin to embed the Google Groups on WordPress! You can see all discussion on your article or WordPress page. All you must do is to add a shortcode on your page editor!
 
-=== Odyno GoogleGroups ===
-Contributors: Odyno
-Tags: Google, google groups, ggroups, embed, fusion, bridge, rss, widget
-Donate link: http://www.staniscia.net/donate
-Requires at least: 3.4.2
-Tested up to: 3.4.2
-Stable tag: 0.0.4
-License: GPLv2
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+* Contributors: Odyno
+* Tags: Google, google groups, ggroups, embed, fusion, bridge, rss, widget
+* Donate link: http://www.staniscia.net/donate
+* Requires at least: 3.4.2
+* Tested up to: 3.4.2
+* Stable tag: 0.0.4
+* License: GPLv2
+* License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Yes, OdynoGoogleGroups embed the Google Groups on WordPress!
 
@@ -106,13 +106,16 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 == Changelog ==
 
 = ToDo =
+
 * I18n
 
 = 0.0.4 =
+
 * Update google properties
 * Fix X-Frame-Options errors (Issue#1)
 
 = 0.0.3 =
+
 * Add setting link on plugin page
 * Add private groups supports
 * Refresh code with new decupling
@@ -121,10 +124,13 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 * Add plugin analytics
 
 = 0.0.2 =
+
 * Add help page on tools menu
 
 = 0.0.1 =
+
 * baseline to release
 
  == Upgrade Notice ==
+
 None.
