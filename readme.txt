@@ -3,10 +3,12 @@ Contributors: Odyno
 Tags: Google, google groups, ggroups, embed, fusion, bridge, rss, widget
 Donate link: http://www.staniscia.net/donate
 Requires at least: 3.4.2
-Tested up to: 3.8.1
-Stable tag: 0.0.9
+Tested up to: 4.7
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Stable tag: 0.0.10
+
+
 
 Yes, OdynoGoogleGroups embed the Google Groups on WordPress!
 
@@ -116,6 +118,10 @@ along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 == Changelog ==
+
+= 0.0.10 =
+* Refresh of code
+* Deploy on Github
 
 = 0.0.9 =
 * es_ES translation

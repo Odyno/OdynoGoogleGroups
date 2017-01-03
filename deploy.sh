@@ -2,16 +2,16 @@
 # A modification of deploy script as found here: https://github.com/thenbrent/multisite-user-management/edit/master/deploy.sh
 
 # main config
-PLUGINSLUG="simple-vertical-timeline"
+PLUGINSLUG="odynogooglegroups"
 CURRENTDIR=`pwd`
-MAINFILE="simple-vertical-timeline.php" # this should be the name of your main php file in the wordpress plugin
+MAINFILE="odynogooglegroups.php" # this should be the name of your main php file in the wordpress plugin
 
 # git config
 GITPATH="$CURRENTDIR/" # this file should be in the base of your git repository
 
 # svn config
 SVNPATH="/tmp/$PLUGINSLUG" # path to a temp SVN repo. No trailing slash required and don't add trunk.
-SVNURL="http://plugins.svn.wordpress.org/simple-vertical-timeline/" # Remote SVN repo on wordpress.org, with trailing slash
+SVNURL="http://plugins.svn.wordpress.org/odynogooglegroups/" # Remote SVN repo on wordpress.org, with trailing slash
 SVNUSER="Odyno" # your svn username
 
 
@@ -73,21 +73,26 @@ echo "Ignoring github specific files and deployment script"
 svn propset svn:ignore "deploy.sh
 README.md
 .git
-.gitignore" "$SVNPATH/trunk/"
+.gitignore
+node_modules" "$SVNPATH/trunk/"
 
 echo "Changing directory to SVN and committing to trunk"
 cd $SVNPATH/trunk/
+
+echo "NOW YOU NEED TO TAKE THE CONTROLL! this is what I'm suggesting you:"
+
+echo "*** START ***"
 # Add all new files that are not set to be ignored
-svn status | grep -v "^.[ \t]*\..*" | grep "^?" | awk '{print $2}' | xargs svn add
-svn commit --username=$SVNUSER -m "$COMMITMSG"
+svn status | grep -v "^.[ \t]*\..*" | grep "^?" | awk '{print $2}' | xargs echo svn add
+echo svn commit --username=$SVNUSER -m "$COMMITMSG"
 
 echo "Creating new SVN tag & committing it"
-cd $SVNPATH
-svn copy trunk/ tags/$NEWVERSION1/
-cd $SVNPATH/tags/$NEWVERSION1
-svn commit --username=$SVNUSER -m "Tagging version $NEWVERSION1"
+echo cd $SVNPATH
+echo svn copy trunk/ tags/$NEWVERSION1/
+echo cd $SVNPATH/tags/$NEWVERSION1
+echo svn commit --username=$SVNUSER -m "Tagging version $NEWVERSION1"
 
 echo "Removing temporary directory $SVNPATH"
-rm -fr $SVNPATH/
+echo rm -fr $SVNPATH/
 
 echo "*** FIN ***"

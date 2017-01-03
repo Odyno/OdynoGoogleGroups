@@ -1,17 +1,18 @@
 <?php
-/**
- * @wordpress-plugin
- * Plugin Name: Odyno GoogleGroups
- * Plugin URI:  http://www.staniscia.net/odynogooglegroups/
- * Description: The <a href="http://www.staniscia.net/odynogooglegroups/" target="_new">Odyno GoogleGroups</a> embed the Google Groups on WordPress! You can see all discussion on your article or WordPress page. All you must do is to add a shortcode on your page editor! The main feautures are:<br> 1) Google Group forum on WordPress page/post <br>2)Widget with last messages of group.
- * Version: 0.0.9
- * Author: Alessandro Staniscia
- * Author URI: http://www.staniscia.net
- * Text Domain: odynogooglegroups
- * License: GNU General Public License v2
- * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
- * Domain Path: /languages
- */
+/*
+Plugin Name: Odyno GoogleGroups
+Plugin URI:  http://www.staniscia.net/odynogooglegroups/
+Description: The <a href="http://www.staniscia.net/odynogooglegroups/" target="_new">Odyno GoogleGroups</a> embed the Google Groups on WordPress! You can see all discussion on your article or WordPress page. All you must do is to add a shortcode on your page editor! The main feautures are:<br> 1) Google Group forum on WordPress page/post <br>2)Widget with last messages of group.
+Requires at least: 3.4.2
+Tested up to: 4.7
+Author: Alessandro Staniscia
+Author URI: http://www.staniscia.net
+Text Domain: odynogooglegroups
+License: GNU General Public License v2
+License URI: http://www.gnu.org/licenses/gpl-2.0.txt
+Domain Path: /languages
+Version: 0.0.10
+*/
 
 // If this file is called directly, abort.
 if ( ! defined( 'WPINC' ) ) {

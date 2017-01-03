@@ -105,7 +105,7 @@ function odyno_google_groups_page_shortcut_html( $isContrib, $isSigned, $id, $wi
 
 	$out = '
 			<div id="' . $id . '_odynoggroups_div" class="odynoggroups_div" >
-				<iframe sandbox="allow-same-origin allow-scripts allow-popups allow-forms"
+				<iframe
 				     id="' . $id . '_ogg_forum_embed"
 			         class="odynoggroups_iframe" 
 			         src="javascript:void(0)" 

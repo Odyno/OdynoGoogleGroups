@@ -3,39 +3,30 @@ OdynoGoogleGroups
 
 This is  a Wordpress plugin to embed the Google Groups on WordPress! You can see all discussion on your article or WordPress page. All you must do is to add a shortcode on your page editor!
 
+[![WordPress](https://img.shields.io/wordpress/v/odynogooglegroups.svg)]() [![WordPress plugin](https://img.shields.io/wordpress/plugin/v/odynogooglegroups.svg)]() [![WordPress rating](https://img.shields.io/wordpress/plugin/r/odynogooglegroups.svg)]()
 
-* Contributors: Odyno
-* Tags: Google, google groups, ggroups, embed, fusion, bridge, rss, widget
-* Donate link: http://www.staniscia.net/donate
-* Requires at least: 3.4.2
-* Tested up to: 3.4.2
-* Stable tag: 0.0.4
-* License: GPLv2
-* License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Yes, OdynoGoogleGroups embed the Google Groups on WordPress!
-
-== Description ==
+## Description
 
 The [OdynoGoogleGroups](http://www.staniscia.net/odynogooglegroups/) embed the Google Groups on WordPress! You can see all discussion on your article or WordPress page. All you must do is to add a shortcode on your page editor!
 
  [Demo](http://www.staniscia.net/demo-odyno-googlegroups/)
 
-= features =
+### features 
 
 * Embed your "custom domain" Google Group on WordPress page/post ( new )
 * Embed public Google Group forum on WordPress page/post
 * Widget with last messages of group.
 
-= It's easy =
+### It's easy =
 
 * To add gGroups on page/post add this shortcode,just swap “name-of-group” with your group name [google-groups name="my-group-name"]
 * To add widgets into sidebar Go to Appearance -> Widgets -> Google Groups Widget
 
-== Installation ==
+## Installation
 Odyno Google Groups can be installed using integrated WordPress plugin installer or manually.
 
-= Integrated WordPress plugin installer method =
+### Integrated WordPress plugin installer method
 
 * Go to Plugins > Add New.
 * Under Search, type in ’Odyno Google Group’.
@@ -45,7 +36,7 @@ Odyno Google Groups can be installed using integrated WordPress plugin installer
 * Click Proceed to continue with the installation. The resulting installation screen will list the installation as successful or note any problems during the install.
 * If successful, click Activate Plugin to activate it, or Return to Plugin Installer for further actions.
 
-= Manual method =
+### Manual method
 
 * Upload ’Odyno Google Group’ folder from odynogooglegroup.zip file downloaded from Odyno Google Group WordPress plugin directory page to the ’/wp-content/plugins/’ directory.
 * Activate ’Odyno Google Group’ plugin through the ’Plugins’ menu in WordPress.
@@ -60,7 +51,7 @@ It’s very easy! You can add the group forum on your page in only three steps!
    * Set follow code on post editor [google_groups name="name-of-groups"] just swap “name-of-group” with your group name
    * And now.. that’s all… go to the preview!
 
-= Configure it =
+## Configure it
 
 If you want to control the view, you can add these attributes on shortcode
    
@@ -76,7 +67,7 @@ If you want to control the view, you can add these attributes on shortcode
 
 
 
-== Screenshots ==
+## Screenshots
 
 1. Screenshot Shortcode on page editor [thanks to mixare.org](http://www.mixare.org)
 2. Screenshot Shortcode in action [thanks to mixare.org](http://www.mixare.org)
@@ -84,7 +75,7 @@ If you want to control the view, you can add these attributes on shortcode
 4. Screenshot Widget in action [thanks to mixare.org](http://www.mixare.org)
 
 
-== Credits ==
+### Credits
 
 
 Copyright 2012  Alessandro Staniscia  (email : alessandro@staniscia.net)
@@ -102,35 +93,3 @@ You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
-
-== Changelog ==
-
-= ToDo =
-
-* I18n
-
-= 0.0.4 =
-
-* Update google properties
-* Fix X-Frame-Options errors (Issue#1)
-
-= 0.0.3 =
-
-* Add setting link on plugin page
-* Add private groups supports
-* Refresh code with new decupling
-* Add multi groups on single page
-* Add plugin sign
-* Add plugin analytics
-
-= 0.0.2 =
-
-* Add help page on tools menu
-
-= 0.0.1 =
-
-* baseline to release
-
- == Upgrade Notice ==
-
-None.
