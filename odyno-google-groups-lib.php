@@ -75,7 +75,7 @@ function odyno_google_groups_get_page(
   }
   else {
     $out = odyno_google_groups_page_shortcut_html($isContrib, $isSigned, $id, $width, $height);
-    $out .= odyno_google_groups_page_shortcut_js($id, $name, $domain, $showsearch, $showtabs, $hideforumtitle, $hidesubject, $showsearch);
+    $out .= odyno_google_groups_page_shortcut_js($id, $name, $domain, $showsearch, $showtabs, $hideforumtitle, $hidesubject);
   }
 
   return $out;
@@ -132,7 +132,6 @@ function odyno_google_groups_page_shortcut_html($isContrib, $isSigned, $id, $wid
  * @param $showtabs
  * @param $hideforumtitle
  * @param $hidesubject
- * @param $showsearch
  *
  * @return string
  */
@@ -143,8 +142,7 @@ function odyno_google_groups_page_shortcut_js(
   $showsearchParam,
   $showtabs,
   $hideforumtitle,
-  $hidesubject,
-  $showsearch
+  $hidesubject
 ) {
 
   $out = '<script type="text/javascript">
