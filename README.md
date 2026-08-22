@@ -1,3 +1,9 @@
+> # 🚨 Project Archived
+> **This repository is deprecated and no longer maintained. No new features, bug fixes, or security updates will be released.**
+>
+> *Odyno*
+
+
 OdynoGoogleGroups
 =================
 
